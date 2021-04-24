@@ -1,14 +1,13 @@
 import React from 'react';
 import { useField } from 'formik';
 import  Form from 'react-bootstrap/Form';
-import classes from './inputTypesForm.module.css';
-import  'bootstrap/dist/css/bootstrap.min.css'
+import  'bootstrap/dist/css/bootstrap.min.css';
 
 export const TextInput=({label, ...props})=>{
     const [field , meta]=useField(props);
     return(
-        <div>
-        <Form.Group controlId="formGroupEmail">
+
+        <Form.Group >
             <Form.Label htmlFor={props.id|| props.name}> {label}</Form.Label>
             <Form.Control   {...field} {... props} />
             {meta.touched && meta.error ? (
@@ -17,7 +16,7 @@ export const TextInput=({label, ...props})=>{
                 </div>
             ) : null}
         </Form.Group>
-        </div>
+
     );
 }
 
@@ -26,7 +25,22 @@ export  const  Checkbox=({ children, ...props }) => {
     return (
         <div>
             <label className="checkbox-input">
-                <input type="checkbox" {...field} {...props} />
+                <input type="check" {...field} {...props} />
+                {children}
+            </label>
+            {meta.touched && meta.error ? (
+                <div className="error">{meta.error}</div>
+            ) : null}
+        </div>
+    );
+}
+
+export  const  RadioBox=({ children, ...props }) => {
+    const [field, meta] = useField({ ...props, type: 'radio' });
+    return (
+        <div>
+            <label className="radio-input">
+                <input type="radio" {...field} {...props} />
                 {children}
             </label>
             {meta.touched && meta.error ? (
