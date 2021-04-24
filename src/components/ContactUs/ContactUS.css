@@ -1,0 +1,27 @@
+.contact {
+    padding: 2rem;
+    background: rgba(253, 83, 4, 0.548);
+    z-index: -1;
+  }
+
+  .h1_Contact{
+    text-shadow: 0em 0.1em 0.1em rgb(42, 52, 63);    
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 21%;
+  }
+
+  .contact-btns {
+    position: relative;
+    float:right;
+    bottom: 80px;
+    right: 10%;
+  }
+  
+  .contact-btns .btn {
+    margin: 6px;
+  }
