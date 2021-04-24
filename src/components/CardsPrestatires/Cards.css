@@ -1,0 +1,131 @@
+.cards {
+    padding: 1rem;
+    background: #fff;
+    z-index: -1;
+    padding-bottom: 0px;
+  }
+  
+  h1 {
+    text-align: center;
+    text-shadow: 0em 0.1em 0em rgba(42, 52, 63, 0.123);    
+    color: #1B4F72;
+    font-size: 60px;
+    margin-top: 2%;
+    margin-bottom: 0;
+  }
+  
+  .cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .cards__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .cards__items {
+    margin-bottom: 24px;
+  }
+  
+  .cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+    width: 400px;       /*taswira*/
+    height: 350px;      /*cadre taht taswira*/
+    background-color: #252e48;
+ 
+  }
+
+  .cards__item:hover{
+    opacity: 1.0;
+
+  }
+  
+  .cards__item__link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .cards__item__pic-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+  }
+  
+  .fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .cards__item__img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    transition: all 0.2s linear;
+
+    object-fit: cover;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.5;
+  }
+
+  .cards__item__img:hover {
+    transform: scale(1.1);
+    opacity: 1.0;
+  }
+  .cards__item__text:hover{
+    font-size: 45px;
+    z-index: 10;
+  }
+  
+  .cards__item__text {
+    color: #fff;
+    font-size: 40px;
+    line-height: 34px;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    text-shadow: 0.1em 0.2em 0.1em #181818;
+    padding: 0%;
+    z-index: 0;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }
