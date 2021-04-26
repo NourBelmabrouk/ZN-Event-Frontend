@@ -2,6 +2,8 @@ import React from 'react';
 import '../../App.css';
 import { Button } from '../Button/Button';
 import './HeroSection.css';
+import Popup from "reactjs-popup";
+import  SignUp from "../authentication_forms/SignUp";
 
 function HeroSection() {
   return (
@@ -11,13 +13,23 @@ function HeroSection() {
       <h1>ORGANISER &nbsp;MON&nbsp; ÉVÉNEMENT</h1>
       <p>LIEU&nbsp;&nbsp;<span className='tire'>-</span>&nbsp;&nbsp;MENU&nbsp;&nbsp;<span className='tire'>-</span>&nbsp;&nbsp;PRESTATAIRES&nbsp;&nbsp;<span className='tire'>-</span>&nbsp;&nbsp;COMMUNICATION&nbsp;&nbsp;<span className='tire'>-</span>&nbsp;&nbsp;BILLETTERIE</p>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          S'inscrire
-        </Button>
+          <Popup trigger={<Button  buttonStyle='btn--outline' buttonSize='btn--large'>
+              S'inscrire
+          </Button>}
+                 position="center center" modal nested>
+              {
+                  close =>(
+                      <div >
+                          <button onClick={close}>
+                              &times;
+                          </button>
+                          <div >
+                              <SignUp />
+                          </div>
+                      </div>
+                  )
+              }
+          </Popup>
         <Button
           className='btns'
           buttonStyle='btn--primary'
