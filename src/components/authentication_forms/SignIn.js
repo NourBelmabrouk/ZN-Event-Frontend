@@ -3,6 +3,7 @@ import {Form, Formik} from 'formik';
 import * as Yup from 'yup';
 import  {TextInput} from "../inputTypesForm";
 import  { Button} from 'react-bootstrap';
+import "./SignIn.css";
 
 import AuthService from "../../services/auth.service";
 
@@ -57,7 +58,7 @@ export  default class  SignUp extends  Component{
                     );
                 }}
             >
-                <Form >
+                <Form className="signIn-form">
                     {!this.state.successful && (
                         <div>
                             <TextInput

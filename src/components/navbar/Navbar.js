@@ -3,6 +3,8 @@ import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from '../Dropdown/Dropdown';
+import Popup from "reactjs-popup";
+import  SignIn from  "../authentication_forms/SignIn";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -101,7 +103,22 @@ window.addEventListener('scroll', changeBackground);
               </Link>
             </li>
           </ul>
-          {button && <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Se Connecter</Button>}
+          {button &&
+            <Popup trigger={<Button  buttonStyle='btn--outline' buttonSize='btn--large'>Se Connecter</Button>}
+                   position="center center" modal nested>
+          {
+            close =>(
+            <div >
+            <button onClick={close}>
+            &times;
+            </button>
+            <div >
+            <SignIn />
+            </div>
+            </div>
+            )
+          }
+            </Popup>}
         </div>
       </nav>
     </>
