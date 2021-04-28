@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Form, Formik} from 'formik';
 import * as Yup from 'yup';
 import {RadioBox, Select, TextInput} from "../inputTypesForm";
-import  { Button} from 'react-bootstrap';
+import {Button} from '../Button/Button';
 
 import AuthService from "../../services/auth.service";
 

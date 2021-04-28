@@ -6,12 +6,12 @@
     text-align: start;
   }
   
-  .dropdown-menu li {
+  .dropdown-li{
     background: #1B4F72;
     cursor: pointer;
   }
   
-  .dropdown-menu li:hover {
+  .dropdown-li:hover {
     background: #fff;
   }
   .dropdown-link:hover{

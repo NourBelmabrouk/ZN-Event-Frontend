@@ -1,4 +1,4 @@
-.navbar {
+.navbarr {
   background: transparent;
   height: 80px;
   display: flex;
@@ -10,11 +10,11 @@
   z-index: 999;
 }
 
-.navbar.active{
+.navbarr.active{
   background: #1B4F72;
 }
 
-.navbar-container {
+.navbarr-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
   max-width: 1500px;
 }
 
-.navbar-logo {
+.navbarr-logo {
   color: #fff;
   justify-self: start;
   margin-left: 0%;
@@ -46,7 +46,7 @@
   font-size: 1.8rem;
 }
 
-.nav-menu {
+.navb-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
@@ -55,16 +55,18 @@
   width: 60vw;
   justify-content: end;
   margin-right: 2rem;
+  margin-top: auto;
   text-shadow: 0.1em 0em 0.2em rgba(24, 24, 24, 0.959);
   font-size: 17px;
 
 }
 
-.nav-item {
+.navb-iteme{
   height: 80px;
 }
 
-.nav-links {
+/*link howa lkhat labyedh ki thot l fleche 3leha*/
+.navb-links {
   color: #fff;
   display: flex;
   align-items: center;
@@ -73,7 +75,7 @@
   height: 100%;
 }
 
-.nav-links:hover {
+.navb-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
 }
@@ -82,7 +84,7 @@
   color: #fff;
 }
 
-.nav-links-mobile {
+.navb-links-mobile {
   display: none;
 }
 
@@ -91,11 +93,11 @@
 }
  
 @media screen and (max-width: 960px) {
-  .NavbarItems {
+  .navbarrItems {
     position: relative;
   }
 
-  .nav-menu {
+  .navb-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -107,28 +109,28 @@
     transition: all 0.5s ease;
   }
 
-  .nav-menu.active {
-    background: #242222;
+  .navb-menu.active {
+    background: #1B4F72;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: 1;
+    z-index: 10;
   }
 
-  .nav-links {
+  .navb-links {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
   }
 
-  .nav-links:hover {
+  .navb-links:hover {
     background-color: #fff;
     color: #242424;
     border-radius: 0;
   }
 
-  .navbar-logo {
+  .navbarr-logo {
     position: absolute;
     top: 0;
     left: 0;
@@ -150,7 +152,7 @@
     font-size: 2rem;
   }
 
-  .nav-links-mobile {
+  .navb-links-mobile {
     display: block;
     text-align: center;
     margin: 2rem auto;
@@ -165,7 +167,7 @@
     transition: all 0.3s ease-out;
   }
 
-  .nav-links-mobile:hover {
+  .navb-links-mobile:hover {
     background: #fff;
     color: #242424;
     transition: 250ms;

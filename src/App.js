@@ -9,13 +9,16 @@ import Animation from './components/pages/Animation';
 import Communication from './components/pages/Communication';
 import Prestataires from './components/pages/Prestataires';
 import Packages from './components/pages/Packages';
+import Contact from './components/pages/Contact';
+import CommentCaMarche from './components/pages/CommentCaMarche';
+import Footer from './components/footer/Footer';
 
 import {
     BrowserRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
-import Cards from './components/CardsPrestatires/Cards';
+
 
 class App extends Component {
   render() {
@@ -32,9 +35,10 @@ class App extends Component {
            <Route path='/Communication' component={Communication} />
            <Route path='/Prestataires' component={Prestataires} />
            <Route path='/Packages' component={Packages} />
-           <Route path='/Cards' component={Cards} />
-
+           <Route path='/Contact' component={Contact} />
+           <Route path='/CommentCaMarche' component={CommentCaMarche} />
          </Switch>
+         <Footer/>
        </Router>
      </>
     );

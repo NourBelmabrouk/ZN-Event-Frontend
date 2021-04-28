@@ -2,7 +2,7 @@
     --primary: #fff;
 }
 
-.btn {
+.bouton {
     padding: 8px 20px;
     border-radius: 2px;
     outline: none;
@@ -10,13 +10,13 @@
     cursor: pointer;
 }
 
-.btn--primary {
+.bouton--primary {
     background-color: var(--primary);
     color: #242424;
     border: 1px solid var(--primary);
 }
 
-.btn--outline {
+.bouton--outline {
     background-color: transparent;
     color: #fff;
     border: 1.5px solid var(--primary);
@@ -25,17 +25,17 @@
 
 }
 
-.btn--medium {
+.bouton--medium {
     padding: 8px 20px;
     font-size: 20px;
 }
 
-.btn--large {
+.bouton--large {
     padding: 12px 26px;
     font-size: 20px;
 }
 
-.btn--medium:hover, .btn--large:hover{
+.bouton--medium:hover, .bouton--large:hover{
   transition: all 0.3s ease-out;
   background: #fff;
   color: #242424;

@@ -49,11 +49,11 @@ img {
     text-shadow: 0.1em 0.1em 0.1em black;
   }
   
-  .hero-btns {
+  .hero-boutons {
     margin-top: 32px;
   }
   
-  .hero-btns .btn {
+  .hero-boutons .bouton {
     margin: 6px;
   }
   
@@ -78,12 +78,12 @@ img {
       font-size: 30px;
     }
   
-    .btn-mobile {
+    .bouton-mobile {
       display: block;
       text-decoration: none;
     }
   
-    .btn {
+    .bouton {
       width: 100%;
     }
   }

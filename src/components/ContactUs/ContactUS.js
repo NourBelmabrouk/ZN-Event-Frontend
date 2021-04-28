@@ -8,11 +8,12 @@ function ContactUS() {
 
       <h1 className='h1_Contact'>Notre service clients est à votre disposition pour vous conseiller de façon détaillée.</h1>
  
-      <div className='contact-btns'>
+      <div className='contact-boutons'>
         <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
+          className='boutons'
+          buttonStyle='bouton--outline'
+          buttonSize='bouton--large'
+          link='/Contact'
         >
           Contactez-Nous
         </Button>

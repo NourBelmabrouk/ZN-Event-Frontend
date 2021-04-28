@@ -15,13 +15,13 @@
     margin-right: 21%;
   }
 
-  .contact-btns {
+  .contact-boutons {
     position: relative;
     float:right;
     bottom: 80px;
     right: 10%;
   }
   
-  .contact-btns .btn {
+  .contact-boutons .bouton {
     margin: 6px;
   }

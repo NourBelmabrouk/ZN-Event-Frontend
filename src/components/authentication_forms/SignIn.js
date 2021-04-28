@@ -9,7 +9,7 @@ import AuthService from "../../services/auth.service";
 const  emailRegExp=/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g ;
 
 
-export  default class  SignUp extends  Component{
+export  default class  SignIn extends  Component{
     constructor(props) {
         super(props);
         this.state={
