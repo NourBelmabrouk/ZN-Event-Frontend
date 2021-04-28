@@ -66,16 +66,14 @@
     box-sizing: border-box;
   }
   
-  .footer-link-items h2 {
-    margin-bottom: 16px;
+  .titre {
+    margin-bottom: 15px;
     position: relative;
     text-align: left;
     left: 0%;
-    padding-bottom: 30px;
+    width: 200px;
+    padding-bottom: 35px;
     text-shadow: 0.1em 0.2em 0.1em #2C3E50;
-  }
-  
-  .footer-link-items > h2 {
     color: #fff;
   }
   
@@ -86,8 +84,11 @@
   }
   
   .footer-link-items a:hover {
-    color: #e9e9e9;
+    color: #fff;
     transition: 0.3s ease-out;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-size:105% ;
+
   }
   
   .footer-email-form h2 {
@@ -116,6 +117,9 @@
     width: 90%;
     max-width: 1000px;
     margin: 10px auto 0px auto;
+  }
+  .social-media-wrap:hover{
+    color: #fff;
   }
   
   .social-icons {

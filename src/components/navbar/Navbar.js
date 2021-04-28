@@ -73,7 +73,7 @@ const [buttonPopup, setButtonPopup] = useState(false);
 
             <li className='navb-iteme'>
               <Link to="/" className='navb-links' onClick={closeMobileMenu}>
-                Home
+              <i className="fa fa-home" /> Home 
               </Link>
             </li>
 
@@ -101,12 +101,12 @@ const [buttonPopup, setButtonPopup] = useState(false);
 
             <li>
               <Link to='/login' className='navb-links-mobile' onClick={closeMobileMenu} >
-                Se Connecter
+                Se Connecter 
               </Link>
             </li>
           </ul>
 
-             {button && <Button className='boutons' buttonStyle='bouton--outline' buttonSize='bouton--large' onClick={ () => setButtonPopup(true)} >Se Connecter</Button>}
+             {button && <Button className='boutons' buttonStyle='bouton--outline' buttonSize='bouton--large' onClick={ () => setButtonPopup(true)} >Se Connecter </Button>}
              
              <Popup trigger={buttonPopup} setTrigger={setButtonPopup} onRequestClose={() => setButtonPopup(false)}>
                <SignIn/>

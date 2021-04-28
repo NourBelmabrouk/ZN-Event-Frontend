@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState} from 'react';
 import '../../App.css';
+import SignUp from '../authentication_forms/SignUp';
 import { Button } from '../Button/Button';
 import './HeroSection.css';
+import Popup from '../Popup/Popup';
+
 
 function HeroSection() {
+  const [buttonPopup, setButtonPopup] = useState(false);
+
   return (
     <div className='hero-container'> 
       <img src='/images/accueil.jpg' alt='' />
@@ -15,16 +20,20 @@ function HeroSection() {
           className='boutons'
           buttonStyle='bouton--outline'
           buttonSize='bouton--large'
+          onClick={ () => setButtonPopup(true)}
         >
           S'inscrire
         </Button>
+        <Popup trigger={buttonPopup} setTrigger={setButtonPopup} onRequestClose={() => setButtonPopup(false)}>
+               <SignUp/>
+        </Popup>
         <Button
           className='boutons'
           buttonStyle='bouton--primary'
           buttonSize='bouton--large'
           link='/CommentCaMarche'
         >
-          COMMENT ÇA MARCHE <i className='far fa-play-circle' />
+          COMMENT ÇA MARCHE <i className="fa fa-info-circle" />
         </Button>
       </div>
     </div>
