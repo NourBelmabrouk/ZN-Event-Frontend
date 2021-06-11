@@ -12,6 +12,8 @@ import Packages from './components/pages/Packages';
 import Contact from './components/pages/Contact';
 import CommentCaMarche from './components/pages/CommentCaMarche';
 import Footer from './components/footer/Footer';
+import ProfilePrestataire from './components/pages/ProfilePrestataire';
+import ProfileOrganisateur from './components/pages/ProfileOrganisateur';
 
 import {
     BrowserRouter as Router,
@@ -37,6 +39,9 @@ class App extends Component {
            <Route path='/Packages' component={Packages} />
            <Route path='/Contact' component={Contact} />
            <Route path='/CommentCaMarche' component={CommentCaMarche} />
+           <Route path='/ProfilePrestataire' component={ProfilePrestataire} />
+           <Route path='/ProfileOrganisateur' component={ProfileOrganisateur} />
+           
          </Switch>
          <Footer/>
        </Router>

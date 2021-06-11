@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from '../Dropdown/Dropdown';
 import Popup from '../Popup/Popup';
-import SignIn from '../authentication_forms/SignIn';
+import SignIn from '../Home/authentication_forms/SignIn';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -73,7 +73,7 @@ const [buttonPopup, setButtonPopup] = useState(false);
 
             <li className='navb-iteme'>
               <Link to="/" className='navb-links' onClick={closeMobileMenu}>
-              <i className="fa fa-home" /> Home 
+              <i className="fa fa-home" />  &nbsp; Home 
               </Link>
             </li>
 
@@ -85,7 +85,7 @@ const [buttonPopup, setButtonPopup] = useState(false);
               <Link href="" className='navb-links'
                 onClick={closeMobileMenu}             
               >
-                 Nos Prestataires <i className='fas fa-caret-down' />
+                 Nos Prestataires  &nbsp; <i className='fas fa-caret-down' />
               </Link>
               {dropdown && <Dropdown />}
             </li>
@@ -95,7 +95,7 @@ const [buttonPopup, setButtonPopup] = useState(false);
                 className='navb-links'
                 onClick={closeMobileMenu}
               >
-                Qui Sommes Nous?
+                Qui Sommes Nous ?
               </Link>
             </li>
 

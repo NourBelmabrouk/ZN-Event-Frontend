@@ -29,8 +29,8 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2 className='titre'>A propos de ZN EVENT</h2>
-            <Link to='/'>Nous contacter</Link>
-            <Link to='/'>Qui sommes-nous?</Link>
+            <Link to='/Contact'>Nous contacter</Link>
+            <Link to='/QuiSommesNous'>Qui sommes-nous?</Link>
             <Link to='/'>Comment ça marche</Link>
           </div>
           <div className='footer-link-items'>

@@ -5,6 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 10000;
   }
   
   .footer-subscription {
@@ -72,7 +74,7 @@
     text-align: left;
     left: 0%;
     width: 200px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
     text-shadow: 0.1em 0.2em 0.1em #2C3E50;
     color: #fff;
   }
@@ -118,8 +120,14 @@
     max-width: 1000px;
     margin: 10px auto 0px auto;
   }
-  .social-media-wrap:hover{
+  .social-logo:hover{
     color: #fff;
+    text-shadow: 0.1em 0.3em 0.1em #2C3E50;
+  }
+  .social-icon-link:hover{
+    color: #fff;
+    text-shadow: 0.1em 0.3em 0.1em #2C3E50;
+    font-size: 200%;
   }
   
   .social-icons {
@@ -139,6 +147,9 @@
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+  }
+  .social-logo:hover{
+    color: #fff;
   }
   
   .website-rights {
