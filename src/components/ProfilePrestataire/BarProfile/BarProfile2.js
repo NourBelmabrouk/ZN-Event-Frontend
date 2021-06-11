@@ -2,20 +2,20 @@ import React from 'react';
 import '../../../App.css';
 import './BarProfile.css';
 
-function BarProfile() {
+function BarProfile2() {
   return (
     <>
       <div className="top_page">
         <div className="container">
            <ul className="tabs_nav">
                 <li>
-                   <a className="fiche active" href="/FichePrestations">
+                   <a className="fiche " href="/FichePrestations">
                       <i></i>
                        <span>Ma fiche prestataire</span>
                     </a>
                 </li>
                 <li>
-                    <a className="demandes" href="/DemandePrestations">
+                    <a className="demandes active" href="/DemandePrestations">
                        <i></i>
                        <span>Demandes de prestation</span>
                     </a>
@@ -34,4 +34,4 @@ function BarProfile() {
   );
 }
 
-export default BarProfile;
+export default BarProfile2;

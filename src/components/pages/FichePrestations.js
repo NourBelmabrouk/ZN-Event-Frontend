@@ -4,7 +4,7 @@ import HeroSectionProfile from '../ProfilePrestataire/HeroSectionProfile/HeroSec
 import BarProfile from '../ProfilePrestataire/BarProfile/BarProfile';
 import FichePrestation from '../ProfilePrestataire/FichePrestation/FichePrestation';
 
-function ProfilePrestataire() {
+function FichePrestations() {
   return (
     <>
       <HeroSectionProfile/>
@@ -14,4 +14,4 @@ function ProfilePrestataire() {
   );
 }
 
-export default ProfilePrestataire;
+export default FichePrestations;
