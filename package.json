@@ -11,11 +11,15 @@
     "focus-trap-react": "^8.4.2",
     "formik": "^2.2.6",
     "react": "^17.0.2",
+    "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+      "react-spring": "^9.0.0-rc.3",
     "reactjs-popup": "^2.0.4",
+    "styled-components": "^5.2.3",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

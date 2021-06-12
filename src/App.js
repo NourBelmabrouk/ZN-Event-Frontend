@@ -15,13 +15,17 @@ import Footer from './components/footer/Footer';
 import AddPlace from "./components/pages/AddServices/AddPlace";
 import AddFood from "./components/pages/AddServices/AddFood";
 import AddAutre from "./components/pages/AddServices/AddAutre";
+import FichePrestations from './components/pages/FichePrestations';
+import ProfileOrganisateur from './components/pages/ProfileOrganisateur';
+import DemandePrestations from './components/pages/DemandePrestations';
+import PrestationsAccepte from './components/pages/PrestationsAccepte';
 
 import {
     BrowserRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
-import Cards from './components/CardsPrestatires/Cards';
+
 
 class App extends Component {
   render() {
@@ -32,6 +36,9 @@ class App extends Component {
          <Switch>
            <Route path='/' exact component={Home} />
            <Route path='/QuiSommesNous' component={QuiSommeNous} />
+           <Route path='/Contact' component={Contact} />
+           <Route path='/CommentCaMarche' component={CommentCaMarche} />
+           
            <Route path='/Lieux' component={Lieux} />
            <Route path='/Traiteurs' component={Traiteurs} />
            <Route path='/Animation' component={Animation} />
@@ -43,7 +50,17 @@ class App extends Component {
            <Route path='/AddPlace' component={AddPlace} />
            <Route path='/AddFood' component={AddFood} />
            <Route path='/AddAutre' component={AddAutre} />
+           
+
+           <Route path='/FichePrestations' component={FichePrestations} />
+           <Route path='/DemandePrestations' component={DemandePrestations} />
+           <Route path='/PrestationsAccepte' component={PrestationsAccepte} />
+
+           <Route path='/ProfileOrganisateur' component={ProfileOrganisateur} />
+           
+           
          </Switch>
+         <Footer/>
        </Router>
      </>
     );
