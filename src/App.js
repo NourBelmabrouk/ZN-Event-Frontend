@@ -9,15 +9,12 @@ import Animation from './components/pages/Animation';
 import Communication from './components/pages/Communication';
 import Prestataires from './components/pages/Prestataires';
 import Packages from './components/pages/Packages';
-<<<<<<< Updated upstream
-=======
 import Contact from './components/pages/Contact';
 import CommentCaMarche from './components/pages/CommentCaMarche';
 import Footer from './components/footer/Footer';
 import AddPlace from "./components/pages/AddServices/AddPlace";
 import AddFood from "./components/pages/AddServices/AddFood";
 import AddAutre from "./components/pages/AddServices/AddAutre";
->>>>>>> Stashed changes
 
 import {
     BrowserRouter as Router,
@@ -41,16 +38,11 @@ class App extends Component {
            <Route path='/Communication' component={Communication} />
            <Route path='/Prestataires' component={Prestataires} />
            <Route path='/Packages' component={Packages} />
-<<<<<<< Updated upstream
-           <Route path='/Cards' component={Cards} />
-
-=======
            <Route path='/Contact' component={Contact} />
            <Route path='/CommentCaMarche' component={CommentCaMarche} />
            <Route path='/AddPlace' component={AddPlace} />
            <Route path='/AddFood' component={AddFood} />
            <Route path='/AddAutre' component={AddAutre} />
->>>>>>> Stashed changes
          </Switch>
        </Router>
      </>
