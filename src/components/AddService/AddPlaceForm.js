@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Form, Formik} from 'formik';
 import * as Yup from 'yup';
 import {RadioBox, Select, TextInput} from "../inputTypesForm";
-import '../Concept/Concept.css';
+import '../Home/Concept/Concept.css';
 import '../Button/Button.css';
 
 import Prestation from "../../services/prestation.service";
@@ -91,7 +91,7 @@ export  default class AddPlaceForm extends  Component{
                                 <div className="containerConcept">
                                     <div className="row">
                                         <div className="concept_left">
-                                            <div className="bg" style={{paddingTop:10, paddingLeft: 10,paddingRight:2}}>
+                                            <div className="bg" style={{paddingTop:10, paddingLeft: 5,paddingRight:2,paddingBottom:70}}>
 
                                                 <TextInput
                                                     label="Nom de la prestation:"

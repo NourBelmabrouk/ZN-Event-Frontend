@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../../App.css';
 import  AddPlaceForm from "../../AddService/AddPlaceForm";
-import CardItem from "../../CardsPrestatires/CardItem";
-import '../../CardsPrestatires/Cards.css';
+import CardItem from "../../Home/CardsPrestatires/CardItem";
+import '../../Home/CardsPrestatires/Cards.css';
 
 
 function AddPlace() {

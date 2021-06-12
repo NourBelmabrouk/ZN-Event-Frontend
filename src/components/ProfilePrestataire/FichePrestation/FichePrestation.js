@@ -115,7 +115,7 @@ function FichePrestation() {
             {/* BOUTTON ADD SERVICE*/}
             <br/>
             <div className="bottom_list_button">
-                <a className="blue" href="/evenements/prestation/tableau-de-bord/fiche-prestataire/ajouter-prestation">
+                <a className="blue" href="/AddPlace">
                     Ajoutez une prestation
                 </a>
             </div>

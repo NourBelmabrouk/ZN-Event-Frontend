@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../App.css';
 import  AddAutreForm from "../../AddService/AddAutreForm";
-import CardItem from "../../CardsPrestatires/CardItem";
+import CardItem from "../../Home/CardsPrestatires/CardItem";
 
 
 function AddAutre() {
