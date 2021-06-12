@@ -1,0 +1,138 @@
+.pageEquipe {
+    margin-top: 110px;
+    margin-bottom: 0;
+    background-color: rgb(228, 224, 224);
+    height: 790px;
+}
+
+.containerEquipe {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.page_title {
+    margin-bottom: 80px;
+    text-align: center;
+    display: block;
+    color: #484848;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 27px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.pageEquipe > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.list-team {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -150px;
+    margin-top: 150px;
+
+    display: flex;
+    flex: 1;
+
+}
+
+.list-team > li {
+    position: relative;
+    min-height: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 130px;
+    margin-left: 13%;
+    width: 30%;
+}
+
+.photoEquipe {
+    width: 350px;
+    margin: 0px auto;
+    margin-bottom: -130px;
+}
+
+.imgPerso {
+    display: block;
+    border-radius: 50%;
+    height: 100%;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    top:  -100px;
+    left: 5%;
+   
+}
+
+.list-team > li  .detail {
+    background: #fff;
+    border-radius: 5px;
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    
+}
+
+.list-team > li  .detail .prenom {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+    color: black;
+}
+
+.list-team > li  .detail .fonction {
+    font-size: 17px;
+    font-weight: 650;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.list-team > li  .detail .email {
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 15px;
+    height: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.list-team > li .detail .ville_container {
+    display: block;
+}
+
+.list-team > li  .detail .ville {
+    display: inline-block;
+    min-width: 220px;
+    max-width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #307bf7;
+    border-radius: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+}
