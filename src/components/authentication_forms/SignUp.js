@@ -142,7 +142,7 @@ export  default class  SignUp extends  Component{
                         Offrir des services
                     </RadioBox>
 
-                    <Button  type="submit">Submit</Button>
+                    <button  type="submit">Submit</button>
                 </div>
                         )}
                     {this.state.message && (
