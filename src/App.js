@@ -18,6 +18,10 @@ import Packages from './components/pages/Packages';
 import Coordinateurs from './components/pages/Coordinateurs';
 import Billetterie from './components/pages/Billetterie';
 
+import AddPlace from "./components/pages/AddServices/AddPlace";
+import AddFood from "./components/pages/AddServices/AddFood";
+import AddAutre from "./components/pages/AddServices/AddAutre";
+
 import FichePrestations from './components/pages/FichePrestations';
 import DemandePrestations from './components/pages/DemandePrestations';
 import PrestationsAccepte from './components/pages/PrestationsAccepte';
@@ -54,6 +58,11 @@ class App extends Component {
            <Route path='/Boissons' component={Boissons} />
            <Route path='/Coordinateurs' component={Coordinateurs} />
            <Route path='/Billetterie' component={Billetterie} />
+
+           <Route path='/AddPlace' component={AddPlace} />
+           <Route path='/AddFood' component={AddFood} />
+           <Route path='/AddAutre' component={AddAutre} />
+           
 
            <Route path='/FichePrestations' component={FichePrestations} />
            <Route path='/DemandePrestations' component={DemandePrestations} />

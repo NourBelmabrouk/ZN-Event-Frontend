@@ -5,6 +5,9 @@ import './Navbar.css';
 import Dropdown from '../Dropdown/Dropdown';
 import Popup from '../Popup/Popup';
 import SignIn from '../Home/authentication_forms/SignIn';
+import {render} from "@testing-library/react";
+import FichePrestations from "../pages/FichePrestations";
+import '../Button/Button.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -106,9 +109,14 @@ const [buttonPopup, setButtonPopup] = useState(false);
             </li>
           </ul>
 
-             {button && <Button className='boutons' buttonStyle='bouton--outline' buttonSize='bouton--large' onClick={ () => setButtonPopup(true)} >Se Connecter </Button>}
-             
-             <Popup trigger={buttonPopup} setTrigger={setButtonPopup} onRequestClose={() => setButtonPopup(false)}>
+            {localStorage.getItem("user")!=null && localStorage.getItem("user").search("Role_PRESTATAIRE")>0 &&button &&
+              <Link to="/FichePrestations"><button className='bouton boutons bouton--outline bouton--large'>Mon compte</button></Link>}
+             {localStorage.getItem("user")==null &&button && <Button className='boutons' buttonStyle='bouton--outline' buttonSize='bouton--large' onClick={ () => setButtonPopup(true)} >Se Connecter </Button>}
+
+
+
+
+          <Popup trigger={buttonPopup} setTrigger={setButtonPopup} onRequestClose={() => setButtonPopup(false)}>
                <SignIn/>
              </Popup>
              

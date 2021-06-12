@@ -15,7 +15,7 @@ function FormEvent() {
                            <form>
                               <div className="form-item">
                                   <label>Où ?</label>
-                                  <input id="where" className="form-text pac-target-input" type="text" name="organisation-ou" placeholder="Choisissez une ville" autocomplete="off"/>
+                                  <input id="where" className="form-text pac-target-input" type="text" name="organisation-ou" placeholder="Choisissez une ville" autoComplete="off"/>
 
                                 </div>
 
@@ -34,7 +34,7 @@ function FormEvent() {
                         </div>
                         <Link to='/evenements/organisation' className='button_start'>
                              Commencer &nbsp;&nbsp;
-                             <i class = 'fas fa-arrow-alt-circle-right' />
+                             <i className = 'fas fa-arrow-alt-circle-right' />
                         </Link>
                     </div>
                     

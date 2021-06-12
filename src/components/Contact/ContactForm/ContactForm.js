@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import '../../../../src/css/skin/skin-8.css';
-import '../../../../src/css/style - Copy (3).css';
-import '../../../../src/css/skin/skin-4.css';
 
 class ContactForm extends Component {
 
