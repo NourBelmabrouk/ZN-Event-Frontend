@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../../App.css';
 import './Prestataire.css';
+import FormFiltrage from '../FormFiltrage/FormFiltrage';
 
 export default function Prestataire() {
   return(
@@ -16,6 +17,7 @@ export default function Prestataire() {
             <div className="pagMain">
             <div className='blocLeft'>
                   {/**FORM ICI */}
+                  <FormFiltrage/>
             </div>
 
             <div className='blocRight'>
