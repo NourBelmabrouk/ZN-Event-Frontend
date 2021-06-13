@@ -1,0 +1,82 @@
+.top_pagePrestataires {
+    position: relative;
+    background-color: #fff;
+}
+
+.containerPrestataires {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tabs_navPrestataires {
+    text-align: center;
+}
+
+.containerPrestataires > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.tabs_navPrestataires > li {
+    display: inline-block;
+    margin-right: 7px;
+    vertical-align: top;
+}
+
+.tabs_navPrestataires > li a.active {
+    padding-top: 55px;
+    background: #307bf7;
+}
+
+.tabs_navPrestataires > li a:hover {
+    background: #307bf7;
+}
+
+.tabs_navPrestataires > li a {
+    width: 155px;
+    background: #c8c8c8;
+    color: #c8c8c8;
+    text-align: center;
+    display: table;
+    color: #fff;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tabs_navPrestataires > a {
+    color: #307bf7;
+    text-decoration: none;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+
+
+.tabs_navPrestataires > a {
+    background: transparent;
+}
+.fiche > i , .demandes > i, .acceptees > i {
+    font-style: italic;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 30px;
+}
+
+.tabs_navPrestataires > li a.active span {
+    height: 50px;
+}
+.tabs_navPrestataires > li a span {
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}

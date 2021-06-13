@@ -1,0 +1,17 @@
+  .bloc{
+      height: 11%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      z-index: -1;
+      background: #1B4F72;
+  }
+  .blocfooter{
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    top: 107%;
+    z-index: 1000;
+    background-color: #00000000;
+
+}

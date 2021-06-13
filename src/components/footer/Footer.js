@@ -21,7 +21,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>S'abonner</Button>
+            <Button buttonStyle='bouton--outline'>S'abonner</Button>
           </form>
         </div>
       </section>
@@ -29,8 +29,8 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2 className='titre'>A propos de ZN EVENT</h2>
-            <Link to='/'>Nous contacter</Link>
-            <Link to='/'>Qui sommes-nous?</Link>
+            <Link to='/Contact'>Nous contacter</Link>
+            <Link to='/QuiSommesNous'>Qui sommes-nous?</Link>
             <Link to='/'>Comment ça marche</Link>
           </div>
           <div className='footer-link-items'>
@@ -38,8 +38,7 @@ function Footer() {
             <Link to='/'>Le blog de ZN Event</Link>
             <Link to='/'>Les derniers événements</Link>
           </div>
-        </div>
-        <div className='footer-link-wrapper'>
+        
           <div className='footer-link-items'>
             <h2 className='titre'>Lire la suite</h2>
             <Link to='/'>CGU Billeterie</Link>
@@ -96,7 +95,7 @@ function Footer() {
               <i className='fab fa-twitter' />
             </Link>
             <Link
-                className='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='LinkedIn'

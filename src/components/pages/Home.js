@@ -1,11 +1,10 @@
 import React from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection/HeroSection';
-import FormEvent from '../FormEvent/FormEvent';
-import Cards from '../CardsPrestatires/Cards';
-import Footer from '../footer/Footer';
-import Concept from '../Concept/Concept';
-import ContactUS from '../ContactUs/ContactUS';
+import HeroSection from '../Home/HeroSection/HeroSection';
+import FormEvent from '../Home/FormEvent/FormEvent';
+import Cards from '../Home/CardsPrestatires/Cards';
+import Concept from '../Home/Concept/Concept';
+import ContactUS from '../Home/ContactUs/ContactUS';
 
 function Home() {
   return (
@@ -15,7 +14,6 @@ function Home() {
       <Cards/>
       <ContactUS/>
       <Concept/>
-      <Footer/>
     </>
   );
 }

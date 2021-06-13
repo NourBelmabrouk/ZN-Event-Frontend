@@ -2,32 +2,32 @@ export const MenuItems = [
     {
       title: 'Lieux',
       path: '/Lieux',
-      cName: 'dropdown-link'
+      cName: 'drop-link'
     },
     {
       title: 'Traiteurs',
       path: '/Traiteurs',
-      cName: 'dropdown-link'
+      cName: 'drop-link'
     },
     {
       title: 'Animation',
-      path: '/Animation',
-      cName: 'dropdown-link'
+      path: '/Prestataires',
+      cName: 'drop-link'
     },
     {
       title: 'Communication',
       path: '/Communication',
-      cName: 'dropdown-link'
+      cName: 'drop-link'
     },
     {
         title: 'Prestataires',
         path: '/Prestataires',
-        cName: 'dropdown-link'
+        cName: 'drop-link'
     },
     {
         title: 'Packages',
         path: '/Packages',
-        cName: 'dropdown-link'
+        cName: 'drop-link'
       }
 
   ];
