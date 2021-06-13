@@ -1,0 +1,120 @@
+.pageCCM {
+    position: relative;
+    margin: 50px 0px;
+    background-color: rgb(238, 238, 238);
+    padding-top: 50px;
+
+}
+
+.containerCCM {
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding-left: 70px;
+    padding-right: 70px;
+    position: relative;
+    right: 15%;
+    width: 50%;
+
+    height: 2300px;
+}
+
+.containerCCM > ul {
+    list-style-type: none;
+    margin-top: 250px;
+    padding: 0px;
+}
+
+
+
+.list-ccm > li:before, .list-ccm > li:after {
+    content: " ";
+    display: table;
+    margin-bottom: -250px;
+    
+}
+
+.list-ccm > li .imgCCM {
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20%;
+    width: 50%;
+    float: left;
+    position: relative;
+    z-index: 0;
+
+}
+
+
+.list-ccm > li .imgCCM  img {
+    height: 100%;
+    width: auto;
+    border-radius: 5px;
+    border: 0;
+    position: relative;
+    float: left;
+}
+
+.list-ccm > li .imgCCM .insideCCM {
+
+    position: absolute;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+
+
+.list-ccm > li .detailCCM {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    float: right;
+}
+
+.list-ccm > li .detailCCM .bgCCM {
+    background: #fff;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    height: 563px;
+    border-radius: 5px;
+    position: relative;
+    top: -560px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    float: right;
+}
+
+.list-ccm > li .detailCCM .bgCCM .insideCCM {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 99%;
+    padding: 0px 75px;
+    position: relative;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+.list-ccm > li .detailCCM .bgCCM .insideCCM h3 {
+    margin-bottom: 60px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.list-ccm > li .detailCCM .bgCCM .insideCCM .textCCM p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.list-ccm > li .detailCCM .bgCCM .insideCCM .textCCM p:last-child {
+    margin-bottom: 0;
+}
