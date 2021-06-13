@@ -14,7 +14,8 @@ export  default class AddPlaceForm extends  Component{
         super(props);
         this.state={
             message: "",
-            successful: false
+            successful: false,
+            user: JSON.parse(localStorage.getItem("user"))
         };
     }
 
@@ -62,11 +63,11 @@ export  default class AddPlaceForm extends  Component{
                    Prestation.addService(
                         "un endroit", values.nom, values.adresse, values.code_postal, values.ville,
                         values.description,null, values.surface, values.capacity, null,
-                        values.morning,values.evening,values.full_day,values.night
+                        values.morning,values.evening,values.full_day,values.night,this.state.user.id
                     ).then(
                         response => {
                             this.setState({
-                                message:  response.data.message,
+                                message: "service ajoutée!",
                                 successful: true
                             });
                         },
@@ -83,7 +84,7 @@ export  default class AddPlaceForm extends  Component{
                 }}
             >
                 <Form >
-                    {!this.state.successful && (
+                    {!this.state.successful  && (
 
 
 
