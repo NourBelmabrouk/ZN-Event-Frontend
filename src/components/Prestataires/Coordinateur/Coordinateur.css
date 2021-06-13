@@ -1,0 +1,225 @@
+.pageCoordinateur{
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    padding-bottom: 42%;
+   
+
+}
+
+.blocLeftCoordinateur{
+    float: left;
+    width: 33.33333333%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: rgb(235, 231, 231);
+   
+    height: 603px;
+}
+
+.blocRight{
+    float: left;
+    width: 66.66666667%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: rgb(235, 231, 231);
+    height: auto;
+
+}
+
+.listing_prestations .titlePres{
+    padding-top: 50px;
+    font-size: 35px;
+    color: #797777;
+}
+
+.blocRight > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    background-color: rgb(235, 231, 231);
+}
+
+.list-lieux > li {
+    margin-bottom: 17px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+
+}
+
+.list-lieux > li .bgLieu {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+}
+
+.list-lieux > li .bgLieu .left {
+    float: left;
+    width: 465px;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+}
+
+.left > a{
+    color: #307bf7;
+    text-decoration: none;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+
+}
+
+.list-lieux > li .bgLieu .left a img {
+    display: block;
+    height: 100%;
+    width:60%;
+}
+
+.list-lieux > li .bgLieu .left .prestataire_selectionne {
+    position: absolute;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    left: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 13px;
+    height: 25px;
+    line-height: 25px;
+    background: #307bf7;
+    padding-left: 40px;
+    padding-right: 25px;
+    top: -50px;
+}
+.list-lieux > li .bgLieu .left .pricebox {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: rgba(72,72,72,0.9);
+    color: #fff;
+    padding: 10px 20px;
+    padding-right: 30px;
+    z-index: 50;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+.list-lieux > li .bgLieu .left .pricebox:hover{
+    padding-right: 50px;
+}
+
+.list-lieux > li .bgLieu .left .pricebox .price {
+    margin-bottom: 4px;
+}
+
+.list-lieux > li .bgLieu .left .pricebox .price strong {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.list-lieux > li .bgLieu .left .pricebox .price small {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.list-lieux > li .bgLieu .right {
+    float: right;
+    width: 261px;
+    padding: 0px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.right .nomPrestataire {
+    font-size: 22px;
+    font-weight: 700;
+    color: #484848;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-shadow: 0em 0.1em 0em #cccccc86;
+
+}
+
+.right > h4 {
+    font-weight: normal;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-top: -8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+
+.right > p {
+    padding-left: 27px;
+    font-size: 16px;
+    color: #307bf7;
+    position: relative;
+    margin-bottom: 0px;
+    display: block;
+}
+
+.list-lieux > li .bgLieu .right .description {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+    margin-bottom: 33px;
+    margin-top: 30px;
+}
+
+.list-lieux > li .bgLieu .right .description.description_prestation {
+    margin-bottom: 13px;
+}
+
+.list-lieux > li .bgLieu .right .bottom1 .voir_plus {
+    float: right;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    font-size: 0px;
+    text-align: center;
+    cursor: pointer;
+    background: #c8c8c8;
+    position: relative;
+    right: 15px;
+}
+
+.bottom1 > i{
+    position: relative;
+    float: right;
+    right: 34px;
+    top: 4px;
+    z-index: 1;
+}
