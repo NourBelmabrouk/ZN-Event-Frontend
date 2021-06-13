@@ -14,8 +14,9 @@ function HeroSectionProfile() {
           className='boutonsParam'
           buttonStyle='bouton--primary'
           buttonSize='bouton--large'
-          link='/'
           onClick={()=> localStorage.removeItem("user")}
+          link='/'
+
         >
           Déconnecter  &nbsp; <i className="fa fa-arrow-right" />
         </Button>

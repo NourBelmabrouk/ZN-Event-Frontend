@@ -111,9 +111,11 @@ const [buttonPopup, setButtonPopup] = useState(false);
           </ul>
 
             {localStorage.getItem("user")!=null && localStorage.getItem("user").search("Role_PRESTATAIRE")>0 &&button &&
-              <Link to="/FichePrestations"><button className='bouton boutons bouton--outline bouton--large'
-                                                   >
+              <Link to="/FichePrestations"><button className='bouton boutons bouton--outline bouton--large'>
                 Mon compte</button></Link>}
+          {localStorage.getItem("user")!=null && localStorage.getItem("user").search("Role_CLIENT")>0 &&button &&
+          <Link to="/EvenementsBrouillon"><button className='bouton boutons bouton--outline bouton--large'>
+            Mon compte</button></Link>}
              {localStorage.getItem("user")==null &&button && <Button className='boutons' buttonStyle='bouton--outline' buttonSize='bouton--large' onClick={ () => setButtonPopup(true)} >Se Connecter </Button>}
 
 
