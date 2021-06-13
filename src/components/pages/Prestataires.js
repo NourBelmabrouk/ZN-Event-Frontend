@@ -1,6 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import HeroSectionPrestataires from '../Prestataires/HeroSectionPrestataire/HeroSectionPrestataire';
+import BarPrestataires4 from '../Prestataires/BarPrestataires/BarPrestataires4';
 
 export default function Prestataires() {
-  return <h1 className='services'>PRESTATAIRES</h1>;
+  return(
+    <>
+       <HeroSectionPrestataires/>
+       <BarPrestataires4/>
+    </>
+  );
 }

@@ -1,0 +1,70 @@
+.dialog__content .dialog_bg {
+    border-radius: 5px;
+    background: #ffffff;
+}
+.dialog_title {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.dialog_bg .dialog_title h2 {
+   
+    margin-bottom: 3%;
+    text-align: center;
+    position: relative;
+    left:0;
+    background-color: rgb(238, 238, 238)
+}
+.content-valider2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content-valider2 p:not(:last-child) {
+    margin-bottom: 38px;
+}
+
+.blue {
+    color: #307bf7;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.bottom_button_container {
+    height: 0;
+    margin-top: -20px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom_button_container a, .node-litige-form .form-actions a {
+    border: solid 2px;
+    height: 40px;
+    line-height: 36px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0px 50px;
+    letter-spacing: 2px;
+    border-color: #64bf6c;
+    background-color: #64bf6c;
+    color: #fff;
+    display: inline-block;
+}
+
+.bottom_button_container a:hover, .node-litige-form .form-actions a:hover{
+    background-color: #fff;
+    color: #64bf6c;
+}

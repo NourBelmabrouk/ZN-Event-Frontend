@@ -7,7 +7,7 @@ function HeroSectionProfile() {
   return (
     <div className='hero-containerProfile'> 
       <img src='/images/accueil.jpg' alt='' />
-      <h1>MON  PROFILE</h1>
+      <h1>MON  COMPTE</h1>
       <p>TABLEAU DE  BORD</p>
       <div className='hero-boutonsParam'>
         <Button

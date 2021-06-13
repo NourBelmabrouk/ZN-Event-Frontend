@@ -11,7 +11,7 @@ export const MenuItems = [
     },
     {
       title: 'Animation',
-      path: '/Animation',
+      path: '/Prestataires',
       cName: 'drop-link'
     },
     {

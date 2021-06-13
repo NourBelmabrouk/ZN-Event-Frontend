@@ -22,7 +22,7 @@ function Cards() {
             <CardItem
               src='/images/animation.jpg'
               text='ANIMATION'
-              path='/Animation'
+              path='/Prestataires'
             />
           </ul>
           <ul className='cards__items '>

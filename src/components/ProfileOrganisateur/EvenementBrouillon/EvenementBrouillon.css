@@ -1,0 +1,300 @@
+.page {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom:0%;
+    padding-bottom: 1%;
+    background-color: white;
+}
+.blocEvent{
+    background-color: #f5f3f3e0;
+    padding-top: 15px;
+}
+.containerPres {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.listing_prestations h3 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: solid 2px #dcdde1;
+    margin-bottom: 30px;
+}
+
+.ulPres {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.image1{
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    z-index: 100;
+    margin-right: 20px;
+}
+Li > i{
+    float: right;
+    position: relative;
+    right: 27.5px;
+    top: 12.5px;
+    color: #fff;
+    margin: 0;
+    padding: 0%;
+}
+
+.listing_prestations .list-prestation > li {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 3px;
+}
+
+.prestation_details{
+    padding-right: 50%;
+    padding-bottom: 2%;
+}
+.listing_prestations .list-prestation > li .prestation_details .detail {
+    float: left;
+    
+}
+
+.titrePres {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.typePres {
+    color: #9fa3a7;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    max-width: 400px;
+    height: 5px;
+}
+
+.listing_prestations .list-prestation > li .prestation_actions {
+    float: right;
+    position: absolute;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding-top: 10%;
+    text-align: right;
+}
+
+.listing_prestations .list-prestation > li .prestation_actions .button-list {
+    display: inline-block;
+}
+
+.button-list > li:not(:last-child) {
+    margin-right: 17px;
+}
+
+.button-list > li {
+    float: right;
+}
+
+.button-list > li.normal.valid a, .button-list > li.normal.green a {
+    border: solid 2px;
+    height: 40px;
+    line-height: 36px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 2px;
+    border-color: #64bf6c;
+    background-color: #64bf6c;
+    color: #fff;
+    padding: 0px 30px;
+}
+.button-list > li.normal.valid a:hover, .button-list > li.normal.green a:hover {
+    background-color: #fff;
+    color: #64bf6c;
+}
+
+.button-list > li a {
+    display: block;
+}
+
+.button-list > li.round a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 0px;
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-list > li.round.see a {
+    background: #307bf7;
+    border-color: #307bf7;
+}
+.button-list > li.round.see a:hover {
+    background: #87b4fc;
+    border-color: #87b4fc;
+
+}
+
+
+.button-list > li.round.delete a {
+    background: #ff5656;
+    border-color: #ff5656;
+}
+.button-list > li.round.delete a:hover {
+    background: #fd8080;
+    border-color: #fd8080;
+}
+
+.button-list > li.round.edit a {
+    background: #9fa3a7;
+    border-color: #9fa3a7;
+}
+.button-list > li.round.edit a:hover {
+    background: #c7c8c9;
+    border-color: #c7c8c9;
+}
+
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.bottom_list_button {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bottom_list_button a {
+    border: solid 2px;
+    height: 40px;
+    line-height: 36px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 2px;
+    border-color: #307bf7;
+    background-color: #307bf7;
+    color: #fff;
+    padding: 0px 30px;
+    display: inline-block;
+    margin: 0px auto;
+}
+/**************************************************/
+.row_list{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.row_wrap {
+    padding: 30px 30px;
+    border-top: solid 3px #ececec;
+}
+.row_wrap .label {
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+    top: -21px;
+    text-transform: uppercase;
+}
+
+.row_list .row_wrap .lien:not(:first-child) {
+    margin-right: 20px;
+}
+
+.row_wrap .lien {
+    float: right;
+    border: solid 2px;
+    height: 40px;
+    line-height: 36px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: -21px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 2px;
+    border-color: #307bf7;
+    background-color: #307bf7;
+    color: #fff;
+    width: 270px;
+}
+
+.row_wrap .lien:hover{
+    background-color: #fff;
+    color: #307bf7;
+}
+
+.row_wrap.grey {
+    background: #dcdde1;
+}
+
+.row_wrap.grey .lien {
+    border: solid 2px;
+    height: 40px;
+    line-height: 36px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 2px;
+    border-color: #9fa3a7;
+    background-color: #9fa3a7;
+    color: #fff;
+    width: 340px;
+}
+.row_wrap.grey .lien:hover{
+    background-color: #fff;
+    color:#9fa3a7 ;
+}
