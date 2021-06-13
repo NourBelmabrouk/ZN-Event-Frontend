@@ -14,9 +14,10 @@ function HeroSectionProfile() {
           className='boutonsParam'
           buttonStyle='bouton--primary'
           buttonSize='bouton--large'
-          link='/CommentCaMarche'
+          link='/'
+          onClick={()=> localStorage.removeItem("user")}
         >
-          Paramètres <i className="fa fa-cog" />
+          Déconnecter  &nbsp; <i className="fa fa-arrow-right" />
         </Button>
       </div>
     </div>
