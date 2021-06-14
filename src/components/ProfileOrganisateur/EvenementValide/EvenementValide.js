@@ -13,7 +13,7 @@ export  default class  EvenementValide extends  Component{
         };
     }
     componentDidMount() {
-        Commande.findConfirmedCommande().then(s =>{
+        Commande.findConfirmedCommande(JSON.parse(localStorage.getItem("user")).id).then(s =>{
             this.setState({services: s})
         })
     }

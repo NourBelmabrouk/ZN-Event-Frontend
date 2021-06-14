@@ -12,7 +12,7 @@ export  default class PrestationAccepte extends  Component{
         };
     }
     componentDidMount() {
-        Commande.findAcceptedCommandes().then(s =>{
+        Commande.findAcceptedCommandes(JSON.parse(localStorage.getItem("user")).id).then(s =>{
             this.setState({services: s})
         })
     }

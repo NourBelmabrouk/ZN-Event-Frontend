@@ -35,6 +35,15 @@ class Prestation {
         })
     }
 
+    getServicesBuId(id_service){
+        return axios.post(API_URL+"findServicesByServiceId",{
+            id_service
+        }).then(response =>{
+
+            return response.data;
+        })
+    }
+
     deleteServiceById(id_service){
         return axios.post(API_URL+"deleteServiceById",{
             id_service

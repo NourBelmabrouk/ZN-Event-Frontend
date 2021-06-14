@@ -35,23 +35,31 @@ class Commande {
         })
     }
 
-    findAcceptedCommandes(){
-        return axios.get(API_URL+"findAcceptedCommandes").then(response =>{
+    findAcceptedCommandes(fournisseur){
+        return axios.post(API_URL+"findAcceptedCommandes",{
+            fournisseur
+        }).then(response =>{
             return response.data;
         })
     }
-    findNonAcceptedCommandes(){
-        return axios.get(API_URL+"findNonAcceptedCommandes").then(response =>{
+    findNonAcceptedCommandes(fournisseur){
+        return axios.post(API_URL+"findNonAcceptedCommandes",{
+            fournisseur
+        }).then(response =>{
             return response.data;
         })
     }
-    findConfirmedCommande(){
-        return axios.get(API_URL+"findConfirmedCommande").then(response =>{
+    findConfirmedCommande(client){
+        return axios.post(API_URL+"findConfirmedCommande",{
+            client
+        }).then(response =>{
             return response.data;
         })
     }
-    findNonConfirmedCommande(){
-        return axios.get(API_URL+"findNonConfirmedCommande").then(response =>{
+    findNonConfirmedCommande(client){
+        return axios.post(API_URL+"findNonConfirmedCommande",{
+            client
+        }).then(response =>{
             return response.data;
         })
     }

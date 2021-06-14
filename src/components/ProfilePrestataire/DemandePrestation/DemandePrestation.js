@@ -17,10 +17,11 @@ export  default class DemandePrestations extends  Component{
 
 
     componentDidMount() {
-        Commande.findNonAcceptedCommandes().then(s =>{
+        Commande.findNonAcceptedCommandes(JSON.parse(localStorage.getItem("user")).id).then(s =>{
             this.setState({services: s})
         })
     }
+
     render() {
         return (
             <>

@@ -18,7 +18,7 @@ export  default class  EvenementBrouillon extends Component {
         };
     }
      componentDidMount() {
-        Commande.findNonConfirmedCommande().then(s =>{
+        Commande.findNonConfirmedCommande(JSON.parse(localStorage.getItem("user")).id).then(s =>{
             this.setState({services: s})
         })
     }
