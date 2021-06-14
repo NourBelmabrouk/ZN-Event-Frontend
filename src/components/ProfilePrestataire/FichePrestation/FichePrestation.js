@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../../../App.css';
 import './FichePrestation.css';
 import Prestation from "../../../services/prestation.service";
+import Popup from "../../Popup/Popup";
 
 export  default class FichePrestation extends Component{
     constructor(props) {
@@ -59,7 +60,7 @@ export  default class FichePrestation extends Component{
                                                 </li>
                                                 <li className="round see">
                                                     <i className="fa fa-eye"/>
-                                                    <a href="https://www.oandb.fr/italien-planb-ariana">
+                                                    <a  onClick={ () => {this.setState({buttonPopup: true})}}>
                                                         Voir
                                                     </a>
                                                 </li>
@@ -74,7 +75,7 @@ export  default class FichePrestation extends Component{
                                                 </li>
                                                 <li className="round edit">
                                                     <i className="fa fa-file"/>
-                                                    <a href="https://www.oandb.fr/node/276232/edit?destination=evenements/prestation/tableau-de-bord/fiche-prestataire">
+                                                    <a>
                                                         Modifier
                                                     </a>
                                                 </li>
@@ -84,6 +85,29 @@ export  default class FichePrestation extends Component{
                                     </div>
                                     <br/>
                                     <hr/>
+                                            <Popup trigger={this.state.buttonPopup} setTrigger={(value) =>{this.setState({buttonPopup: value})}} onRequestClose={() => {this.setState({buttonPopup: false})}}>
+                                                <div className="typePres">
+                                                    Type: {service.type}
+                                                </div>
+                                                <br/>
+                                                <div className="typePres">
+                                                    Adresse: {service.adresse}
+                                                </div>
+                                                <br/>
+                                                <div className="typePres">
+                                                    code postal: {service.code_postal}
+                                                </div>
+                                                <br/>
+                                                <div className="typePres">
+                                                    Ville: {service.ville}
+                                                </div>
+                                                <br/>
+                                                <div className="typePres">
+                                                    Description : {service.Description}
+                                                </div>
+
+                                            </Popup>
+
                                         </div>
                                     ))}
 
