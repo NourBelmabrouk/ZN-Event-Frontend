@@ -1,10 +1,11 @@
 import React from 'react';
 import '../../../App.css';
 import './ValidationPopup.css';
+import Commande from "../../../services/commande.service";
 
 
 
-function ValidationPopup() {
+function ValidationPopup(props) {
 
   return (
     <>
@@ -26,7 +27,7 @@ function ValidationPopup() {
             <div className="bottom_button_container">
                 <div className="flag_valider">
                     <span className="flag-wrapper flag-validation-v-nement-par-l-organi flag-validation-v-nement-par-l-organi-276268"> 
-                        <a href="https://www.oandb.fr/flag/flag/validation_v_nement_par_l_organi/276268?destination=evenements/organisation/tableau-de-bord/evenements/brouillons&amp;token=jQNdReQDYHFX_JLEiIEO3P5BYEvkLUOKQ5dnZ8pPT3A" title="" className="flag flag-action flag-link-normal" rel="nofollow">
+                        <a href="/EvenementsBrouillon" onClick={()=> {Commande.confirmCommande(props.commande)}} title="" className="flag flag-action flag-link-normal" rel="nofollow">
                             Valider mon événement
                         </a>
                         <span className="flag-throbber">&nbsp;</span> 
