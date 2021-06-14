@@ -13,7 +13,7 @@ export  default class FichePrestation extends Component{
 
     componentDidMount() {
         Prestation.getServicesOfUser(JSON.parse(localStorage.getItem("user")).id).then(s =>{
-            this.setState({services: s})
+            this.setState({services: s});
         })
     }
 
