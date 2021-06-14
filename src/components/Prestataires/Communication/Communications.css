@@ -1,0 +1,178 @@
+.pageCommunication{
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    padding-bottom: 130%;
+    height: 0px;
+    padding-top: 1%;
+
+}
+
+.blocRightCommunication{
+    float: left;
+    width: 66.66666667%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 200px;
+
+    background-color: #fff;
+    height: auto;
+
+}
+
+.listing_prestations .titleComm{
+    padding-top: 50px;
+    font-size: 35px;
+    color: #797777;    
+}
+
+.blocRightCommunication > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    background-color: #fff;
+}
+
+.list-Communication > li {
+    margin-bottom: 17px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+
+}
+
+.list-Communication > li .bgLieu {
+    display: inline-block;
+    width: 100%;
+    background: rgb(235, 233, 233);
+    border-radius: 5px;
+    overflow: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+}
+
+.list-Communication > li .bgLieu .left {
+    float: left;
+    width: 465px;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.list-Communication > li .bgLieu .left a img {
+    display: block;
+    height: 100%;
+    width:60%;
+}
+
+
+.list-Communication > li .bgLieu .left .pricebox {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: rgba(72,72,72,0.9);
+    color: #fff;
+    padding: 10px 20px;
+    padding-right: 30px;
+    z-index: 50;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+.list-Communication > li .bgLieu .left .pricebox:hover{
+    padding-right: 50px;
+}
+
+.list-Communication > li .bgLieu .left .pricebox .price {
+    margin-bottom: 4px;
+}
+
+.list-Communication > li .bgLieu .left .pricebox .price strong {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.list-Communication > li .bgLieu .left .pricebox .price small {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.list-Communication > li .bgLieu .rightComm {
+    float: right;
+    width: 261px;
+    padding: 0px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.rightComm .nomComm {
+    font-size: 22px;
+    font-weight: 700;
+    color: #484848;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right:7% ;  
+    text-overflow: ellipsis;
+    width: 100%;
+    text-shadow: 0em 0.1em 0em #cccccc86;
+
+}
+
+.rightComm > h4 {
+    font-weight: normal;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-top: -8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.list-Communication > li .bgLieu .rightComm .description {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+    margin-bottom: 33px;
+    margin-top: 30px;
+}
+
+.list-Communication > li .bgLieu .rightComm .description.description_prestation {
+    margin-bottom: 13px;
+}
+
+.list-Communication > li .bgLieu .rightComm .bottom1 .voir_plus {
+    float: right;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    font-size: 0px;
+    text-align: center;
+    cursor: pointer;
+    background: #c8c8c8;
+    position: relative;
+    right: 15px;
+}
+
+.bottom1 > i{
+    position: relative;
+    float: right;
+    right: 34px;
+    top: 4px;
+    z-index: 1;
+}

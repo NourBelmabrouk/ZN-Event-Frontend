@@ -32,7 +32,7 @@ function FormEvent() {
                                 
                             </form>
                         </div>
-                        <Link to='/evenements/organisation' className='button_start'>
+                        <Link to='/Lieux' className='button_start'>
                              Commencer &nbsp;&nbsp;
                              <i className = 'fas fa-arrow-alt-circle-right' />
                         </Link>

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../../App.css';
 import './Menu.css';
+import FormFiltrage from '../FormFiltrage/FormFiltrage';
 
 export default function Menu() {
   return(
@@ -16,6 +17,7 @@ export default function Menu() {
             <div className="pagMain">
             <div className='blocLeft'>
                   {/**FORM ICI */}
+                  <FormFiltrage/>
             </div>
 
             <div className='blocRight'>
